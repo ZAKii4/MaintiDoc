@@ -1,0 +1,19 @@
+# Versions testées (Python 3.11, macOS arm64)
+asyncpg==0.32.0
+langchain==1.5.2
+langchain-core==1.8.5
+langchain-ollama==1.2.0
+langgraph==1.2.24
+llama-index-core==0.14.26
+llama-index-embeddings-ollama==0.11.0
+llama-index-vector-stores-postgres==0.10.0
+ollama==0.6.3
+pillow==13.0.0
+psycopg2-binary==2.9.13
+pymupdf==2.2
+pytest==9.2.0
+python-dotenv==1.2.4
+sqlalchemy==2.0.58
+streamlit==1.67.0
+torch==2.15.0
+transformers==5.24.1

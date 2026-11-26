@@ -1,0 +1,14 @@
+# Alternative à scripts/db.sh. Avec ce service, définir PG_PASSWORD=maintidoc-local dans .env.
+services:
+  db:
+    image: pgvector/pgvector:pg17
+    environment:
+      POSTGRES_DB: maintidoc
+      POSTGRES_USER: maintidoc
+      POSTGRES_PASSWORD: maintidoc-local   # développement local uniquement
+    ports:
+      - "127.0.0.1:5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+volumes:
+  pgdata:

@@ -1,0 +1,15 @@
+llama-index-core
+llama-index-vector-stores-postgres
+llama-index-embeddings-ollama
+pymupdf
+langchain
+langchain-ollama
+streamlit
+torch
+transformers
+pillow
+psycopg2-binary
+asyncpg
+sqlalchemy
+python-dotenv
+pytest

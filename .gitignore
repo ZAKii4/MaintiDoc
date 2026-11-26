@@ -1,0 +1,10 @@
+.venv/
+.pgdata/
+.env
+__pycache__/
+.pytest_cache/
+data/artifacts/
+data/uploads/
+.DS_Store
+# PDF non redistribués sans vérification des droits
+data/*.pdf
